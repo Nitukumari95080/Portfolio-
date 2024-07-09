@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="imase/log.jpg" alt=""  class="logo" width="150px" height="20px">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contect Us</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>Hi, i'am <span>Nitu Kumari</span><br> from Bihar</h1>
+        </div>
+    </div>
+  </div> 
+  <!-- ------------------------About Me--------------------- -->
+<div id="About">
+  <div class="container">
+    <div class="row">
+      <!-- <div class="about-col-1">
+        <img src="imase/img1.png" alt="">
+      </div> -->
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am looking for a role with a company where I can contribute my ideas and receive
+           guidance for a successful career.  To get an opportunity where I can use my potential 
+           to the best and contribute to the growth of the organization.TO BUILD CAREER IN A 
+            GROWING ORGANIZATION.WHERE I CAN GET THE OPPORTUNITIES TO PROVE MY 
+            ABILITIES BY ACCEPTING CHALLENGES</p>
+      </div>
+      <div >
+        <div class="tab-title">
+          <p class="tab-links active-link " onclick="opentab('skills')"> Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+         </div>
+         <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span> Designing Web/App interface</li>
+            <li><span>Web Develpoment</span> Web App interface</li>
+            <li><span>Fronted Develpoment</span>  Building  responsive webside</li>
+          </ul>
+         </div>
+         <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>UI/UX</span> Designing Web/App interface</li>
+            <li><span>Web Develpoment</span> WebApp interface</li>
+            <li><span>ADCA</span> Export Microsoft Office</li>
+          </ul>
+         </div>
+         <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2023-Current</span><br>Master of Computer Application</li>
+            <li><span>2019-2023</span><br>Bachlore of Computer Application</li>
+            <li><span>2017-2019</span><br>Inter/Science/Math</li>
+            <li><span>2016-2017</span><br>10 <sup>th</sup></li>
+          </ul>
+         </div>
+      </div>
+         
+      </div>
+    
+  </div>
+</div>
+
+<!-- ------------------------services------------------------- -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>"I create attractive, user-friendly websites that work well on all devices. Services include design, development, SEO, and ongoing maintenance to keep your site updated."</p>
+          
+        
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>
+          "I design intuitive and visually appealing interfaces, ensuring a seamless user experience through user research, wireframing, prototyping, usability testing, and responsive design."</p>
+          
+        
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>MS Office</h2>
+        <p>"I offer expert training and support for Microsoft Office, including Word, Excel, PowerPoint, and Outlook, to improve your productivity and efficiency."</p>
+          
+      </div>
+    </div>
+  </div>
+       
+</div>
+
+<!-- --------------------------Portfolio----------------------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="imase/img3.jpg">
+        <div class="layer">
+          <h3>Landing Page</h3>
+          <p>"A landing page designed to attract, engage, and convert visitors with clear messaging, appealing visuals, and a strong call-to-action."</p>
+            
+        </div>
+      </div>
+      <div class="work">
+        <img src="imase/img6.jpg" >
+        <div class="layer">
+          <h3>To do list</h3>
+          <p>"A to-do list page to help you organize tasks, set priorities, track progress, and boost productivity with simple, intuitive features."</p>
+           
+        </div>
+      </div>
+      <div class="work">
+        <img src="imase/img10.jpg" >
+        <div class="layer">
+          <h3>Tech app</h3>
+          <p>"A Tech app page to help you organize tasks, set priorities, track progress, and boost productivity with simple, intuitive features."</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- ------------------------------------contact--------------------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h3 class="sub-title">Contact Me</h3>
+        <p><i class="fa-solid fa-envelope"></i>niukumari251001@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9508062053</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://teligram.com/"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://whasapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+        <a href="nitu rusu.pdf" class="btn btn2 ">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form action="">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Topper Girl, Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+  </div>
+</div>
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab")
+    }
+     event.currentTarget.classList.add("active-link")
+     document.getElementById(tabname).classList.add("active-tab");
+  }
+
+</script>
+
+
+<script>
+     var sidemeu = document.getElementById("sidemenu");
+
+     function openmenu(){
+      sidemeu.style.right="0"
+     }
+     function closemenu(){
+      sidemeu.style.right="-200px"
+     }
+     
+</script>
+</body>
+</html>
